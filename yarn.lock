@@ -1833,6 +1833,16 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@gmod/bgzf-filehandle@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@gmod/bgzf-filehandle/-/bgzf-filehandle-1.4.2.tgz#2523e50cebedfdcb49c7c040365bcb22de3ad964"
+  integrity sha512-eJBFPvH4fqIjVtJtFXw2DKiJYqL/9bOz/cLu5Xn+nGGve2avQ62Bl5aa20SNHSZyoL1QsgY5tGzJwH0IKUtvHg==
+  dependencies:
+    es6-promisify "^7.0.0"
+    generic-filehandle "^2.2.1"
+    long "^5.1.0"
+    pako "^1.0.11"
+
 "@gmod/gff@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@gmod/gff/-/gff-1.1.2.tgz#b436b8e322bb1364384db46e7d26ea2efbece7db"
@@ -6191,6 +6201,11 @@ es6-promisify@^6.0.0, es6-promisify@^6.1.1:
   resolved "https://registry.yarnpkg.com/es6-promisify/-/es6-promisify-6.1.1.tgz#46837651b7b06bf6fff893d03f29393668d01621"
   integrity sha512-HBL8I3mIki5C1Cc9QjKUenHtnG0A5/xA8Q/AllRcfiwl2CZFXGK7ddBiCoRwAix4i2KxcQfjtIVcrVbB3vbmwg==
 
+es6-promisify@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/es6-promisify/-/es6-promisify-7.0.0.tgz#9a710008dd6a4ab75a89e280bad787bfb749927b"
+  integrity sha512-ginqzK3J90Rd4/Yz7qRrqUeIpe3TwSXTPPZtPne7tGBPeAaQiU8qt4fpKApnxHcq1AwtUdHVg5P77x/yrggG8Q==
+
 escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
@@ -7311,7 +7326,7 @@ gauge@^3.0.0:
     strip-ansi "^3.0.1 || ^4.0.0"
     wide-align "^1.1.2"
 
-generic-filehandle@^2.2.2:
+generic-filehandle@^2.2.1, generic-filehandle@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/generic-filehandle/-/generic-filehandle-2.2.2.tgz#6493f4e8c0f9fc26d4086fbfa5d51879d0046f40"
   integrity sha512-/YRwruMy53YNTNISJa7YWYVCKqSUzx1v+17xi/bYFX9TjBKNm4otuXZ8eXXeaf4S48ncufU8ihmsvHoi0RzJHA==
@@ -9907,6 +9922,11 @@ lolex@^5.0.0:
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+long@^5.1.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/long/-/long-5.2.0.tgz#2696dadf4b4da2ce3f6f6b89186085d94d52fd61"
+  integrity sha512-9RTUNjK60eJbx3uz+TEGF7fUr29ZDxR5QzXcyDpeSfeH28S9ycINflOgOlppit5U+4kNTe83KQnMEerw7GmE8w==
+
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
@@ -10793,6 +10813,11 @@ p-try@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
+
+pako@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
+  integrity sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
 
 parent-module@^1.0.0:
   version "1.0.1"
